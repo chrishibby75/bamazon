@@ -106,7 +106,7 @@ function start() {
                     //order displayed
                     console.log("Your total comes to: $" + (parse[answer.itemId - 1].price * answer.numOfItems));
                     console.log("Your order has been placed successfully!");
-                    
+                    console.log("Thank you for shopping at Bam-A-zon!")
                 }
                 );
             }
